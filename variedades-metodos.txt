@@ -1,0 +1,14 @@
+METODO != PROPRIEDADE
+() ======= SEM ()
+
+replace -  Troca tal parte de nome pela parte que você escolher - nome.replace('ré', 'rei'); // 'Andrei'
+
+toFixed - Arredonda número
+
+btn.classList.add('azul') // adiciona a classe azul
+
+btn.innerText; // 'Clique' - Mostra o que esta escrito
+
+btn.addEventListener('click', function() {
+  console.log('Clicou')
+})

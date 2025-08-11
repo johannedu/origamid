@@ -1,0 +1,48 @@
+ANÁLISE DE ERROS - 
+Verificar o tipo de erro que me é apresentado.
+
+HOISTING -
+Joga a varíavel para cima, exceto o valor.
+
+TIPOS DE DADOS - (typeof)
+String,
+Number,
+Boolean,
+Undefined,
+Null,
+Object.
+
+
+VERIFICAR BOOLEAN -
+!! - Verificação
+&& - Se tiver um falso, volta faso. Os dois tem de ser true. (RETORNA VALOR SEMPRE)
+|| - Se tiver uma das funções verdadeiras, já da TRUE
+
+FUNÇÕES - 
+Bloco de código a ser chamado, que contém uma função guardada para que economize blocos e blocos de código.
+
+function idadeDoUsuario (idades){
+    if (typeof idades !== 'number'){
+        return'Você não digitou um número, tente novamente:'
+    }   else if (idades >= 18){
+        return 'Você é maior de idade'
+    }   else {
+        return'Você é menor de idade'
+    }
+}
+
+HOISTING - 
+Após o codigo ser lido, ele pega todas as funções e as jogam para o inicio do código.
+
+
+DENTRO DE UM OBJETO POSSO DECLARAR UMA FUNÇÃO - 
+var quadrado = {
+    lados: 4,
+    area: function (lado){
+        return lado * lado
+    },
+    perimetro(lado){
+        return this.lados * lado
+    }
+} 
+DESTA EXATA FORMA
