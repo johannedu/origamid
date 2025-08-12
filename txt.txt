@@ -45,4 +45,7 @@ var quadrado = {
         return this.lados * lado
     }
 } 
-DESTA EXATA FORMA
+DESTA EXATA FORMA 
+
+
+FOREACH - (function(ONDE VAI PERCORRER, INDICE))
