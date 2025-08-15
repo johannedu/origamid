@@ -70,3 +70,6 @@ IF - Pode ser abreviado. - Válido para 1 condição
 const e let - 
 CONST IMPEDE REDECLARAÇÃO, IMPEDE MUDAR VALOR
 UNICA DIFERECA DE LET, É QUE PERMITE ALTERAR DADO 
+
+
+DOM - document object model

@@ -16,6 +16,7 @@ function dividirDois(x) {
 }
 console.log(somarDois(4));
 console.log(dividirDois(6));
+
 console.log("==========================================")
 // O que fazer para total retornar 500?
  let numero = 50;
