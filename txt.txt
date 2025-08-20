@@ -91,3 +91,15 @@ const section = document.querySelector('.animais');
 section.clientHeight; // height + padding
 section.offsetHeight; // height + padding + border
 section.scrollHeight; // height total, mesmo dentro de scroll
+
+
+INSERCÇÃO DE TEXTO
+const menu = document.querySelector('.menu');
+
+menu.outerHTML; // todo o html do elemento
+menu.innerHTML; // html interno
+menu.innerText; // texto, sem tags
+
+menu.innerText = '<p>Texto</p>'; // a tag vai como texto
+menu.innerHTML = '<p>Texto</p>'; // a tag é renderizada
+
