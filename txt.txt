@@ -79,3 +79,15 @@ HTML COLLECTION - AO VIVO
 
 
 FOREACH - (function(ONDE VAI PERCORRER, INDICE))
+
+ARROW FUNCTIONS - 
+imgs.forEach((item) => {
+  console.log(item);
+});
+
+VERIFICAÇÃO TAMANHO OU LARGRA DA TELA -
+const section = document.querySelector('.animais');
+
+section.clientHeight; // height + padding
+section.offsetHeight; // height + padding + border
+section.scrollHeight; // height total, mesmo dentro de scroll

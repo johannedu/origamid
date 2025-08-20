@@ -30,4 +30,11 @@ console.log(primeiroAga)
 const paragrafo = document.querySelectorAll ('p')
 
 console.log(paragrafo[paragrafo.length - 1])
+console.log("========================================================")
+
+img.forEach ((item, indice) => {
+    console.log(item, indice)
+})
+
+
 
