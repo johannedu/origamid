@@ -27,10 +27,13 @@ function adicionarItem() {
     botaoApagar.classList.add('botaoApagar')
     botaoApagar.innerText = "Remover";
     listaComprasLi.appendChild(botaoApagar);
+    apagarItem()
   }
 }
 
 //QUERO CRIAR UM BOTAO DENTRO DE CADA LI PARA QUE EU POSSA APAGAR DETERMINADO ITEM ADICIONADO
-function apagarItem() {
-  
+
+  function apagarItem(listaComprasLi) {
+  arrayArmazenador.pop(0 , listaComprasLi); //DANDO .PUSH PARA QUE CADA ITEM ADICIONADO DENTRO DESSE INPUT SEJA REDIRECIONADO A ARRAY
 }
+
