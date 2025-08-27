@@ -27,13 +27,24 @@ function adicionarItem() {
     botaoApagar.classList.add('botaoApagar')
     botaoApagar.innerText = "Remover";
     listaComprasLi.appendChild(botaoApagar);
-    apagarItem()
+    apagarItem(listaComprasLi, capturaValorInput)
   }
 }
 
 //QUERO CRIAR UM BOTAO DENTRO DE CADA LI PARA QUE EU POSSA APAGAR DETERMINADO ITEM ADICIONADO
 
-  function apagarItem(listaComprasLi) {
-  arrayArmazenador.pop(0 , listaComprasLi); //DANDO .PUSH PARA QUE CADA ITEM ADICIONADO DENTRO DESSE INPUT SEJA REDIRECIONADO A ARRAY
+  function apagarItem(listaComprasLi, valor) {
+  const botao = listaComprasLi.querySelector(".botaoApagar");
+  botao.addEventListener("click", () => {
+    listaComprasLi.remove();
+
+    const index = arrayArmazenador.indexOf(valor);
+    if (index > -1) {
+      arrayArmazenador.splice(index, 1);
+    }
+
+    console.log(arrayArmazenador);
+  });
 }
+
 

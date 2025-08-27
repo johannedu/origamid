@@ -1,4 +1,4 @@
-/* Reset básico para margem e padding */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,33 +6,45 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Corpo da página */
+
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  background: linear-gradient(100deg, #000000dc, #000000a2);
+  padding-top: 40px;    
 }
 
 
-/* Div centralizada */
-div {
-    background-color: #ffffffcc; /* branco com leve transparência */
-    padding: 30px 40px;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    min-width: 300px;
+.dois {
+  text-align: center;
 }
 
-/* Títulos dentro da div */
+.conteudo {
+  background-color: #ffffffcc;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+}
+
+.dois h1 {
+  margin-bottom: 20px; 
+  color: white;        
+}
+
+
+
+h1 {
+    display: block;
+}
 div h2 {
     margin-bottom: 20px;
     color: #333;
 }
 
-/* Input estilizado */
+
 input[type="text"] {
     padding: 10px;
     width: 80%;
@@ -42,7 +54,7 @@ input[type="text"] {
     font-size: 16px;
 }
 
-/* Botão estilizado */
+
 button {
     padding: 10px 20px;
     border: none;
